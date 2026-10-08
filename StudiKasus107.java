@@ -5,9 +5,9 @@ public class StudiKasus107 {
         int hargaPerCup = 18000, jumlahCup, uangBayar;
         int totalHarga, diskon, totalBayar, kembalian, kurang;
 
-        System.out.println("Jumlah Cup yang dibeli : ");
+        System.out.print("Jumlah Cup yang dibeli \t : ");
         jumlahCup = sc.nextInt();
-        System.out.println("Uang yang dibayar      : ");
+        System.out.print("Uang yang dibayar \t : ");
         uangBayar = sc.nextInt();
 
         totalHarga = jumlahCup*hargaPerCup;
@@ -18,9 +18,9 @@ public class StudiKasus107 {
         }
         totalBayar = totalHarga-diskon;
 
-        System.out.println("Total harga   :"+ totalHarga);
-        System.out.println("Diskon        :"+ diskon);
-        System.out.println("Total bayar   :"+ totalBayar);
+        System.out.println("Total harga  : "+ totalHarga);
+        System.out.println("Diskon       : "+ diskon);
+        System.out.println("Total bayar  : "+ totalBayar);
 
         if (uangBayar >= totalBayar) {
             kembalian = uangBayar - totalBayar;
